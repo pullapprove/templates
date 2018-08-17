@@ -1,0 +1,8 @@
+version: 3
+
+notifications:
+- when: pull_request.opened
+  comment: >
+    Hi @{{ event.sender.login }}, thanks for the PR! We use PullApprove to manage our review process.
+    
+    We'll notify you if there's anything else you need to do.
