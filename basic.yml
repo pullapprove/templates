@@ -1,7 +1,7 @@
 version: 3
 
 pullapprove_conditions:
-- "'WIP' not in pr.title"
+- "'WIP' not in title"
 
 notifications:
 - when: pull_request.opened
